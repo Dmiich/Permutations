@@ -2,3 +2,6 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+h1{
+  display: block;
+}

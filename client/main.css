@@ -2,3 +2,62 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+li.a {
+  list-style-type: circle;
+  display: inline-block;
+  font-family: monospace;
+}
+
+
+input[type="text"] {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+
+  margin-left: 2px;
+  position: relative;
+}
+.span{
+  color:darksalmon
+}
+span{
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.MessageWrapper {
+  margin-bottom: 10px;
+}
+.Message {
+  background: rgb(154, 238, 162);
+  padding: 10px;
+  border-radius: 6px;
+  word-wrap: break-word;
+  margin: 2px;
+}
+.Outgoing {
+  margin-left: 20%;
+  background: rgb(201, 240, 156);
+}
+.Message.Incoming {
+  margin-right: 20%;
+}
